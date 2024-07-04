@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 24px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+ol li {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+ol{
+    margin-left: 35px;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0px auto;
+    background-color: rgb(228, 251, 244);
+}
+section {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(236, 227, 213);
+    padding: 10px 20px 0px;
+}
+header {
+
+    min-height: 150px;
+    /* background-image: url(Adesivo\ oval\ poção\ de\ Halloween\ vintage\ bege\ e\ preto.png); */
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+figure{
+    margin: 0;
+    text-align: center;
+}
+main {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    
+}
+footer {
+    background-color: rgb(214, 178, 139);
+    min-height: 150px;
+    padding: 15px;
+}
+table{
+    font-size: 16px;
+    color: rgb(36, 33, 33);
+}
+
+table tbody tr td a{
+    text-decoration: none;
+    color: rgb(36, 33, 33);
+}
+table thead th{
+    text-align: left;
+}
+
+.tabela thead th {
+    border: solid 1px black;
+    background-color: rgb(255, 179, 1);
+    color: black;
+    padding: 15px;
+
+}
+.tabela tbody tr td {
+    border: solid 1px black;
+    color: black;
+    padding: 15px;
+}
+
+.tabela{
+    margin-bottom: 25px;
+    width: 950px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.tabela tr:nth-child(even){
+    background-color: rgb(221, 255, 205);
+}
+
+.contato{
+    display: flex;
+    text-align: center;
+}
+.linha{
+    margin: 15px;
+}
+
+label{
+    width: 100px;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+}
+input{
+    height: 25px;
+    width: 270px;
+}
+.enviar{
+    background-color: rgb(35, 35, 254);
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 2px;
+}
+.apagar{
+    background-color: rgb(251, 28, 28);
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 2px;
+}
